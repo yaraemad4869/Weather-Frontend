@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-slate-50 to-blue-50 dark:from-dark-300 dark:to-dark-200 min-h-screen;
+  }
+}
+
+@layer components {
+  .glass-effect {
+    @apply bg-white/10 backdrop-blur-lg backdrop-filter border border-white/20;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-600 to-primary-400 bg-clip-text text-transparent;
+  }
+  
+  .react-select-container {
+    @apply rounded-lg;
+  }
+  
+  .react-select__control {
+    @apply bg-gray-50 dark:bg-dark-100 border-gray-200 dark:border-dark-100 hover:border-primary-500;
+  }
+  
+  .react-select__menu {
+    @apply bg-white dark:bg-dark-100;
+  }
+  
+  .react-select__option {
+    @apply hover:bg-primary-50 dark:hover:bg-primary-900/20;
+  }
+  
+  .react-select__option--is-focused {
+    @apply bg-primary-50 dark:bg-primary-900/20;
+  }
+  
+  .react-select__option--is-selected {
+    @apply bg-primary-500;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
