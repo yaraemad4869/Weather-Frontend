@@ -1,16 +1,43 @@
-# React + Vite
+# Weather Project Frontend 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive weather dashboard application built with React and Tailwind CSS. This application provides real-time weather monitoring, city management, and advanced analytics with beautiful visualizations.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **🌡️ Real-time Weather Monitoring** - Get current weather conditions for any city
+- **📊 Interactive Dashboard** - View key metrics and weather statistics at a glance
+- **🏙️ City Management** - Add, edit, delete, and search cities worldwide
+- **📈 Advanced Analytics** - Historical data analysis with interactive charts
+- **🌓 Dark Mode** - Eye-friendly dark theme for night usage
+- **📱 Fully Responsive** - Works perfectly on desktop, tablet, and mobile devices
+- **🎨 Modern UI** - Beautiful gradient designs with smooth animations
+- **📤 Data Export** - Export weather data to CSV format
+- **🔍 Advanced Search** - Filter cities by name, country, and status with pagination
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 18** - Modern UI framework
+- **Tailwind CSS** - Utility-first CSS framework
+- **Vite** - Fast build tool and development server
+- **React Query** - Data fetching and state management
+- **Axios** - HTTP client for API requests
+- **Recharts** - Charting library for data visualization
+- **Framer Motion** - Smooth animations
+- **React Router DOM** - Navigation and routing
+- **React Hook Form** - Form handling and validation
+- **React Hot Toast** - Beautiful toast notifications
+- **date-fns** - Date manipulation library
 
-## Expanding the ESLint configuration
+## 📋 Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Node.js** (v18 or higher)
+- **npm** or **yarn** package manager
+- **WeatherProject API** running on `https://localhost:7007`
+
+## 🚀 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yaraemad4869/weather-frontend.git
+cd weather-frontend
