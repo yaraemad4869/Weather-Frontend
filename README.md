@@ -32,7 +32,7 @@ A modern, responsive weather dashboard application built with React and Tailwind
 
 - **Node.js** (v18 or higher)
 - **npm** or **yarn** package manager
-- **WeatherProject API** running on `https://localhost:7007`
+- **WeatherProject API** running on `http://weather-api.runasp.net`
 
 ## 🚀 Installation
 
